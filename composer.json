@@ -1,0 +1,22 @@
+{
+    "name": "decahedron/laravel-event-logger",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rizqi Djamaluddin",
+            "email": "rizqidjamaluddin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Decahedron\\LaravelEventLogger\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "laravel/framework": "~5.5.20",
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "~6.0"
+    }
+}
